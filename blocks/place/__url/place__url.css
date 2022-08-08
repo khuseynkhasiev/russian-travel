@@ -1,0 +1,11 @@
+.place__url{
+    font-family: 'Inter Regular', 'sans-serif', 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    width: 100%;
+    margin: 0 0 12px;
+}

@@ -1,0 +1,12 @@
+.footer__nav-links{
+    display: flex;
+    column-gap: 18px;
+    list-style: none;
+    padding-left: 0;
+}
+@media screen and (max-width: 767px){
+    .footer__nav-links{
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}

@@ -1,0 +1,25 @@
+.main__title {
+    text-align: center;
+    font-family: 'Inter Black', 'sans-serif', 'Arial';
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0;
+    width: 100%
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .main__title {
+        margin: 0 24px;
+        width: calc(100% - 24px * 2);
+    }
+}
+@media screen and (max-width: 767px) {
+    .main__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 16px;
+        width: calc(100% - 16px * 2);
+    }
+}
