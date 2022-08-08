@@ -7,7 +7,7 @@
     font-size: 96px;
     line-height: 100px;
     margin: 0;
-    width: 100%
+    width: 100%;
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .main__title {

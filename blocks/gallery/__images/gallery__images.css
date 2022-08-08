@@ -1,7 +1,7 @@
 .gallery__images{
     display: grid;
     grid-template-columns: repeat(4, minmax(300px, auto));
-    grid-template-rows: repeat(auto-fit, minmax(225px, auto)); 
+    grid-template-rows: repeat(auto-fit, minmax(225px, auto));
     justify-content: center;
     padding-left: 0;
     grid-gap: 16px;
@@ -11,20 +11,20 @@
     .gallery__images{
         grid-gap: 14px;
         grid-template-columns: repeat(3, minmax(300px, auto));
-        grid-template-rows: repeat(auto-fit, minmax(225px, auto)); 
+        grid-template-rows: repeat(auto-fit, minmax(225px, auto));
     }
 }
 @media screen and (max-width:1023px) and (min-width: 768px){
     .gallery__images{
         grid-gap: 16px;
         grid-template-columns: repeat(2, minmax(352px, auto));
-        grid-template-rows: repeat(auto-fit, minmax(264px, auto)); 
+        grid-template-rows: repeat(auto-fit, minmax(264px, auto));
     }
 }
 @media screen and (max-width:767px){
     .gallery__images{
         grid-gap: 12px;
         grid-template-columns: repeat(1, minmax(228px, auto));
-        grid-template-rows: repeat(auto-fit, minmax(216px, auto)); 
+        grid-template-rows: repeat(auto-fit, minmax(216px, auto));
     }
 }
