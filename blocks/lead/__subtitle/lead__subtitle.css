@@ -1,6 +1,6 @@
-.main__subtitle {
+.lead__subtitle{
     text-align: center;
-    font-family: 'Inter', 'sans-serif', 'Arial';
+    font-family: 'Inter', 'Arial', 'sans-serif';
     color:#fff;
     font-style: normal;
     font-weight: 400;
@@ -11,12 +11,12 @@
     margin: 32px auto 64px;
 }
 @media screen and (max-width: 1179px) and (min-width: 768px){
-    .main__subtitle {
+    .lead__subtitle{
         margin: 32px auto 56px;
     }
 }
-@media screen and (max-width: 767px) {
-    .main__subtitle {
+@media screen and (max-width: 767px){
+    .lead__subtitle {
         width: calc(100% - 16px * 2);
         margin: 16px 16px 40px;
         font-size: 16px;

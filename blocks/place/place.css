@@ -4,7 +4,7 @@
     padding: calc(92px / 2) 0;
     margin: auto;
 }
-@media screen and (max-width: 1279px) and (min-width: 1024px){
+@media screen and (max-width: 1179px) and (min-width: 1024px){
     .place{
         width: calc(100% - 48px * 2);
     }
@@ -13,5 +13,10 @@
     .place{
         width: calc(100% - 24px * 2);
         padding: calc(88px / 2) 0 calc(90px / 2);
+    }
+}
+@media screen and (max-width: 767px){
+    .place{
+        padding: calc(64px / 2) 0 calc(66px / 2);
     }
 }

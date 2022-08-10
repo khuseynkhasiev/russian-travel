@@ -3,7 +3,7 @@
     margin: auto;
     width: calc(100% - 48px * 2);
 }
-@media screen and (max-width:1279px) and (min-width: 1024px){
+@media screen and (max-width:1179px) and (min-width: 1024px){
     .gallery{
         width: calc(100% - 48px * 2);
     }
